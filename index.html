@@ -3,143 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lesson_15</title>
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="Discover small-batch ice cream made with rich ingredients and a little extra joy."
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Cold Creamery — Small-batch ice cream</title>
   </head>
   <body>
     <header class="header">
-      <div class="conten-container">
+      <div class="content-container">
         <div class="picture-container">
           <img src="./picture/Logo.svg" alt="Logo" class="picture" />
         </div>
         <nav class="navigation">
           <ul class="list">
-            <li class="list-element"><a href="#" class="link">main</a></li>
-            <li class="list-element"><a href="#" class="link">About Us</a></li>
-            <li class="list-element"><a href="#" class="link">Trainers</a></li>
-            <li class="list-element"><a href="#" class="link">App</a></li>
+            <li class="list-element"><a href="#home" class="link">Home</a></li>
+            <li class="list-element"><a href="#about" class="link">Our story</a></li>
+            <li class="list-element"><a href="#products" class="link">Flavors</a></li>
+            <li class="list-element"><a href="#app" class="link">Our app</a></li>
           </ul>
         </nav>
         <div class="social-media-container">
           <ul class="list">
             <li class="list-element">
-              <a href="#" class="link"><img src="./picture/social-media-01.svg" alt="picture" class="picture" /></a>
+              <a href="#" class="link" aria-label="Instagram"><img src="./picture/social-media-01.svg" alt="" class="picture" /></a>
             </li>
             <li class="list-element">
-              <a href="#" class="link"><img src="./picture/social-media-02.svg" alt="picture" class="picture" /></a>
+              <a href="#" class="link" aria-label="Facebook"><img src="./picture/social-media-02.svg" alt="" class="picture" /></a>
             </li>
             <li class="list-element">
-              <a href="#" class="link"><img src="./picture/social-media-03.svg" alt="picture" class="picture" /></a>
+              <a href="#" class="link" aria-label="Twitter"><img src="./picture/social-media-03.svg" alt="" class="picture" /></a>
             </li>
             <li class="list-element">
-              <a href="#" class="link"><img src="./picture/social-media-04.svg" alt="picture" class="picture" /></a>
+              <a href="#" class="link" aria-label="LinkedIn"><img src="./picture/social-media-04.svg" alt="" class="picture" /></a>
             </li>
           </ul>
       </div>
     </div>
     </header>
     <main class="main">
-      <section class="hero-sectione">
+      <section class="hero-section" id="home">
         <div class="content-container">
           <div class="text-container">
             <p class="eyebrow">Sweet fun, full of milk.</p>
-            <h1 class="main-title">Feel inside cold with our delicious ice-cream</h1>
+            <h1 class="main-title">A little <span>indulgence</span> goes a long way.</h1>
             <p class="text">
-              Some food has looked so awful that it's looked like something that the dog's brought home, yet after one
-              mouthful I've been left eating my thoughts, my words.
+              Small-batch ice cream, made with the good stuff. Find your new favorite scoop and make the everyday a
+              little sweeter.
             </p>
-            <button class="buy-now">Buy Now</button>
+            <a class="buy-now" href="#products">Explore our flavors</a>
           </div>
           <div class="picture-container">
-            <img src="./picture/hero-section-picture.webp" alt="ies" class="hero-picture" />
+            <img src="./picture/hero-section-picture.webp" alt="A scoop of creamy ice cream ready to enjoy" class="hero-picture" />
           </div>
         </div>
       </section>
-      <section class="benefit">
+      <section class="benefit" id="about">
         <div class="content-container">
           <h2>
-            Porem ipsum dolor sit amet, consectetur adipiscing elit.<span>
-              Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
-              torquent</span
-            >per conubia nostra, per inceptos himenaeos.
+            Made for the <span>moments worth savoring.</span>
           </h2>
-          <img src="./picture/img-milk.webp" alt="milk" class="milk-picture" />
-          <img src="./picture/img-pistachio.webp" alt="pistachio" class="pistachio-picture" />
-          <img src="./picture/img-strawberry.webp" alt="strawberry" class="strawberry-picture" />
+          <img src="./picture/img-milk.webp" alt="Fresh milk" class="milk-picture" />
+          <img src="./picture/img-pistachio.webp" alt="Roasted pistachios" class="pistachio-picture" />
+          <img src="./picture/img-strawberry.webp" alt="Fresh strawberries" class="strawberry-picture" />
         </div>
       </section>
-      <section class="product-sectione">
+      <section class="product-section" id="products">
         <div class="content-container">
-          <h2 class="title">Our Product</h2>
+          <h2 class="title">Our flavors</h2>
           <div class="card-container">
             <article class="card">
               <div class="picture-container">
-                <img src="./picture/productos_01.webp" alt="picture" class="picture" />
+                <img src="./picture/productos_01.webp" alt="Strawberry ice cream" class="picture" />
               </div>
-              <h3 class="title">Brown bread</h3>
-              <p class="text">Bon Au Pain is a pioneer in the healthy fast food scene.Bon</p>
+              <h3 class="title">Strawberry Fields</h3>
+              <p class="text">Sweet, sun-ripened berries folded into fresh cream.</p>
               <p class="price">$19.55<span class="old-price">$22.55</span></p>
               <button class="buy-now">Buy Now</button>
             </article>
             <article class="card">
               <div class="picture-container">
-                <img src="./picture/productos_02.webp" alt="picture" class="picture" />
+                <img src="./picture/productos_02.webp" alt="Pistachio ice cream" class="picture" />
               </div>
-              <h3 class="title">Brown bread</h3>
-              <p class="text">Bon Au Pain is a pioneer in the healthy fast food scene.Bon</p>
+              <h3 class="title">Pistachio No. 5</h3>
+              <p class="text">Toasty Sicilian pistachio with a rich, silky finish.</p>
               <p class="price">$19.55<span class="old-price">$22.55</span></p>
               <button class="buy-now">Buy Now</button>
             </article>
             <article class="card">
               <div class="picture-container">
-                <img src="./picture/productos_03.webp" alt="picture" class="picture" />
+                <img src="./picture/productos_03.webp" alt="Chocolate ice cream" class="picture" />
               </div>
-              <h3 class="title">Brown bread</h3>
-              <p class="text">Bon Au Pain is a pioneer in the healthy fast food scene.Bon</p>
+              <h3 class="title">Midnight Cocoa</h3>
+              <p class="text">Deep, velvety chocolate for your after-hours craving.</p>
               <p class="price">$19.55<span class="old-price">$22.55</span></p>
               <button class="buy-now">Buy Now</button>
             </article>
             <article class="card">
               <div class="picture-container">
-                <img src="./picture/productos_04.webp" alt="picture" class="picture" />
+                <img src="./picture/productos_04.webp" alt="Vanilla ice cream" class="picture" />
               </div>
-              <h3 class="title">Brown bread</h3>
-              <p class="text">Bon Au Pain is a pioneer in the healthy fast food scene.Bon</p>
+              <h3 class="title">Vanilla Cloud</h3>
+              <p class="text">Madagascar vanilla, churned until impossibly smooth.</p>
               <p class="price">$19.55<span class="old-price">$22.55</span></p>
               <button class="buy-now">Buy Now</button>
             </article>
           </div>
         </div>
       </section>
-      <section class="order-wey-section">
+      <section class="order-way-section" id="app">
         <div class="content-container">
           <div class="text-container">
-            <h2 class="title">Simple way <span>to order</span>your food</h2>
+            <h2 class="title">Your next favorite scoop is <span>a tap away.</span></h2>
             <p>
-              Some food has looked so awful that it's looked like something that the dog's brought home, yet after one
-              mouthful I've been left eating my thoughts, my words.
+              Skip the line and bring the good stuff home. Order your favorite flavors for pickup in just a few taps.
             </p>
             <div class="steps">
-              <p class="step1"><span class="namber">1</span>Select Your Food</p>
-              <p class="step2"><span class="namber">2</span>Add To Cart</p>
-              <p class="step3"><span class="namber">3</span>Order Your Food</p>
+              <p class="step1"><span class="number">1</span>Select your flavor</p>
+              <p class="step2"><span class="number">2</span>Add it to your cart</p>
+              <p class="step3"><span class="number">3</span>Choose pickup time</p>
             </div>
           </div>
           <div class="img-container">
-            <img src="./picture/picture_phone.webp" alt="picture-of-phon" class="phonone-picture" />
-            <img src="./picture/aple_icon.webp" alt="icon-of-icon" class="aple-icon" />
-            <img src="./picture/picture_googelplaystore.webp" alt="googleplay-picture" class="picture-of-googleplay" />
+            <img src="./picture/picture_phone.webp" alt="Preview of the ice cream ordering app" class="phonone-picture" />
+            <img src="./picture/aple_icon.webp" alt="Download on the App Store" class="aple-icon" />
+            <img src="./picture/picture_googelplaystore.webp" alt="Get it on Google Play" class="picture-of-googleplay" />
           </div>
         </div>
       </section>
       <section class="get-quote-section">
-        <div class="content-container">
-          <h2 class="title"><span>Have Question</span>in Mind? Let us help you</h2>
-          <div class="input-container">
-            <form>
-              <input type="text" placeholder="Enter your question" />
-            </form>
-            <button class="send-button">Send</button>
-          </div>
+        <div class="content-container" id="contact">
+          <h2 class="title">Have a question? <span>Let us help.</span></h2>
+          <form class="input-container">
+            <label class="visually-hidden" for="question">Enter your question</label>
+            <input id="question" type="text" placeholder="Enter your question" />
+            <button class="send-button" type="submit">Send</button>
+          </form>
         </div>
       </section>
     </main>
@@ -149,7 +150,7 @@
           <div class="logo-container">
             <img src="./picture/Logo.svg" alt="logo" class="logo">
           </div>
-          <p class="text">Some food has looked so awful that it's looked like something that the dog's brought home.</p>
+          <p class="text">Small-batch ice cream, made with the good stuff. A little sweetness for your everyday.</p>
           <div class="social-media-container">
             <img src="./picture/social-media-01.svg" alt="icon" class="social-media-icon">
             <img src="./picture/social-media-02.svg" alt="icon" class="social-media-icon">
@@ -161,17 +162,17 @@
     <h3 class="title">menu</h3>
           <nav class="navigation">
           <ul class="list">
-            <li class="list-element"><a href="#" class="link">Main</a></li>
-            <li class="list-element"><a href="#" class="link">About Us</a></li>
-            <li class="list-element"><a href="#" class="link">Trainers</a></li>
-            <li class="list-element"><a href="#" class="link">App</a></li>
+            <li class="list-element"><a href="#home" class="link">Home</a></li>
+            <li class="list-element"><a href="#about" class="link">Our story</a></li>
+            <li class="list-element"><a href="#products" class="link">Flavors</a></li>
+            <li class="list-element"><a href="#app" class="link">Our app</a></li>
           </ul>
         </nav>
         </div>
         <div class="contacts-container">
           <h3 class="title">contacts</h3>
-           <a href="tel:+380501234567">831.466.3000</a>
-           <a href="email@example.com">info@basketball.com</a>
+           <a href="tel:+18314663000">831.466.3000</a>
+           <a href="mailto:hello@coldcreamery.com">hello@coldcreamery.com</a>
         </div>
         <div class="location">
         <h3 class="title">location</h3>
